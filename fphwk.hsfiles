@@ -57,7 +57,8 @@ main :: IO ()
 main = putStrLn "There is no main"
 
 {-# START_FILE src/HW{{n}}/T1.hs #-}
-module HW{{n}}.T1
+module HW{{n}}.T1 () where
+
 -- Homework here
 
 {-# START_FILE test/Spec.hs #-}
